@@ -37,7 +37,7 @@
 
 .gameFeatures {
     margin-top: 70px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 
 .gameFeatures h2 {
@@ -63,7 +63,25 @@
 
 .icons:nth-child(3) {
     position: relative;
-    top: 10px;
+    top: 20px;
+}
+
+.icons:nth-child(4) img {
+    width: 27px;
+}
+
+.icons:nth-child(4) {
+    position: relative;
+    top: 40px;
+}
+
+.icons:nth-child(5) img {
+    width: 35px;
+}
+
+.icons:nth-child(5) {
+    position: relative;
+    top: 60px;
 }
 
 .icons img {
@@ -71,12 +89,13 @@
     margin-left: 10px;
 }
 
-.gameFeatures p:nth-child(4) {
-    margin-top: 30px;
+.icons:nth-child(6) img {
+    width: 45px;
 }
 
-.gameFeatures p:nth-child(5) {
-    margin-top: 25px;
+.icons:nth-child(6) {
+    position: relative;
+    top: 80px;
 }
 
 @media only screen and (max-width: 620px){

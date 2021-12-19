@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.wrapper}>
         <img src="/logo.png" alt="logo" className={styles.logo}/>
 
-        <h1>Coming Soon</h1>
+        <h1>Coming SOON!</h1>
 
         <img src="/walking.gif" alt="nft" className={styles.nft}/>
 
@@ -27,10 +27,11 @@ export default function Home() {
 
         <div className={styles.gameFeatures}>
           <h2>Game Features:</h2>
+          <p className={styles.icons} >Explore the Digiverse <img src="/exploring.png"/></p>
           <p className={styles.icons}>Battle for DigiTokens <img src="/sword.png"/></p>
-          <p className={styles.icons}>Hatch DigiEggz <img src="egg.png"/></p>
-          <p>DigiStake</p>
-          <p>Digivolve</p>
+          <p className={styles.icons}>Hatch DigiEggz <img src="/egg.png"/></p>
+          <p className={styles.icons}>DigiStake <img src="/stake.png"/></p>
+          <p className={styles.icons}>DigiVolve <img src="/volve.png"/></p>
         </div>
       </div>
 
