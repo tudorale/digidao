@@ -17,14 +17,14 @@ export default function Home() {
         <h1>Coming Soon</h1>
 
         <div className={styles.subText}>
-          Solana's First Generative Fully Animated Collection
+          Solana&apos;s First Generative Fully Animated Collection
           <img src="/dragon.gif" alt="animated dragon"/>
         </div>
 
         <img src="/walking.gif" alt="nft" className={styles.nft}/>
 
         <div className={styles.text}>
-          <p>Solana's First Generative GIF Collection</p>
+          <p>Solana&apos;s First Generative GIF Collection</p>
           <p>SAVE the Digiverse</p>
           <p>Discover ancient Secrets</p>
           <p>Become the DigiDestined</p>
