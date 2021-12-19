@@ -19,7 +19,7 @@ export default function Home() {
         <img src="/walking.gif" alt="nft" className={styles.nft}/>
 
         <div className={styles.text}>
-          <p>Solana&apos;s First Generative GIF Collection</p>
+          <p>FIRST Generative NFT GIF Collection Powered by Solana</p>
           <p>SAVE the Digiverse</p>
           <p>Discover ancient Secrets</p>
           <p>Become the DigiDestined</p>
@@ -34,6 +34,8 @@ export default function Home() {
           <p className={styles.icons}>DigiVolve <img src="/volve.png"/></p>
         </div>
       </div>
+
+      <img src="/solana.png" alt="solana" className={styles.solana}/>
 
       <div className={styles.banner}>
         <img src="/banner.gif" alt="banner"/>

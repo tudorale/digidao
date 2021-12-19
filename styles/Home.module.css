@@ -37,7 +37,6 @@
 
 .gameFeatures {
     margin-top: 70px;
-    margin-bottom: 200px;
 }
 
 .gameFeatures h2 {
@@ -98,6 +97,14 @@
     top: 80px;
 }
 
+.solana {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
 @media only screen and (max-width: 620px){
 
     .nft {
@@ -107,6 +114,16 @@
     .wrapper h1 {
         font-size: 1.6rem;
     }
+
+    .icons:nth-child(2), .icons:nth-child(3){
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 515px){
+    .solana {
+        width: 300px;
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -114,21 +131,6 @@
         top: 0px;
     }
 
-    .icons img {
-       display: none;
-    }
-
-    .icons:nth-child(3) {
-        position: relative;
-        top: 30px;
-    }
-
-    .gameFeatures p:nth-child(4) {
-        margin-top: 55px;
-    }
     
-    .gameFeatures p:nth-child(5) {
-        margin-top: 25px;
-    }
     
 }
