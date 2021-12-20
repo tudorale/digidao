@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
 
       <div className={styles.wrapper}>
+        <a href="https://twitter.com/DIGIDAOnft"><img src={"/twitter.png"} alt="twitter" className={styles.twitter}/></a>
         <img src="/logo.png" alt="logo" className={styles.logo}/>
 
         <h1>Coming SOON!</h1>
